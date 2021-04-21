@@ -1,13 +1,173 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  border: hidden;
+  position: relative;
+}
+
+.hero-container{
+  height: 40rem;
+  position: relative;
+}
+
+.body{
+  position: absolute;
+  background-image: linear-gradient(to left bottom,
+  rgba(241, 233, 233, 0.836),
+  rgba(219, 150, 150, 0.4));
+  height: 63.8rem;
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 78.2vh);
+  width: 156%;
+  object-fit: cover;
+  margin-left: -24rem;
+  z-index: 1;
+  top: 2.8%;
+}
+
+.video{
+  position: absolute;
+  width: 156.2%;
+  left: -21%;
+  top: -13%;
+  object-fit: cover;
+  transform: translate(-9%, 13%);
+  height: 48.5rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78.5vh);
+  overflow: hidden;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
+
+.hero-text{
+  position: absolute;
+  z-index: 2;
+  margin-top: 15rem;
+  margin-left: 14rem;
+  text-align: center;
+
+}
+
+.hero-text h1{
+  color: #fff;
+  font-size: 3rem;
+}
+
+.hero-text h5{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.hero-button{
+  margin-bottom: 1rem;
+}
+
+
+/*Getapet start*/
+.Getapet-Container{
+  height: 50rem;
+  margin-top: 10rem;
+}
+
+
+.Getapet-Header{
+  text-align: center;
+}
+
+.hr-getapet{
+  border: 2px solid rgb(226, 123, 123);
+  width: 10%;
+}
+
+.getapet-container{
+  width: 18rem;
+  margin-top: 10rem;
+}
+
+
+.card-margin{
+  margin-left: 2rem;
+}
+
+.getapet-header{
+  font-size: 1.5rem;
+}
+
+.getapet-text{
+  padding: 1rem;
+}
+
+/*Getapet end*/
+
+.Ourstory-Container{
+  height: 60rem;
+  position: relative;
+}
+
+.ourstory-commitment{
+  height: 30rem;
+  padding: 4rem 5rem;
+  background-color: #fff;
+  position: absolute;
+  margin-left: 3rem;
+  z-index: 1;
+}
+
+.hr-ourstory{
+  border: 2px solid rgb(226, 123, 123);
+  width: 30%;
+  transform: translateX(-100%);
+}
+
+
+.ourstory-story{
+  height: 30rem;
+  padding: 4rem 2rem;
+  background-color: #fff;
+  transform: translateY(100%);
+}
+
+.hr-story{
+  border: 2px solid rgb(226, 123, 123);
+  width: 30%;
+  transform: translateX(-100%);
+}
+
+.ourstory-button{
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  background-color: rgb(241, 131, 131);
+}
+
+.ourstory-button:hover{
+  background-color: rgb(240, 82, 82);
+}
+
+
+.Stats-Container{
+  height: 40rem;
+}
+
+.stats{
+  margin-top: 5rem;
+  padding: 4rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 6px 120px rgb(0, 0, 0, 10%);
+}
+
+.stats-icon{
+  font-size: 4rem;
+  color: rgb(247, 110, 110);
+  transform: translate(40%, -60%);
+}
+
+.card-2, .card-4{
+  transform: translateY(30%);
+}
+
+
+.Contact-Container{
+  height: 40rem;
 }
