@@ -7,7 +7,7 @@ const Statistics = () => {
     return (
         <Container className='Stats-Container'>
             <Row>
-                <Col sm={12} md={3} lg={3} xl={3}>
+                <Col sm={12} md={12} lg={12} xl={12}>
                     <div className='stats-text'>
                         <h1>
                             Our Stats

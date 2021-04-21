@@ -146,6 +146,8 @@ body{
 }
 
 
+
+/*stats start*/
 .Stats-Container{
   height: 40rem;
 }
@@ -155,6 +157,15 @@ body{
   padding: 4rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 6px 120px rgb(0, 0, 0, 10%);
+}
+
+.stats-text{
+  text-align: center;
+}
+
+.hr-stats{
+  border: 2px solid rgb(226, 123, 123);
+  width: 10%;
 }
 
 .stats-icon{
@@ -167,7 +178,62 @@ body{
   transform: translateY(30%);
 }
 
+/*stats end*/
+
+/*Contact start*/
 
 .Contact-Container{
   height: 40rem;
 }
+
+.contact-section{
+  background-color: rgb(245, 133, 133);
+  height: 33.9rem;
+  width: 150%;
+}
+
+.contact-header{
+  text-align: center;
+}
+
+.contact-header h1{
+  transform: translateY(60%);
+  color: rgb(165, 44, 35);
+}
+
+.hr-contact{
+  border: 2px solid #fff;
+  width: 10%;
+  margin-top: 3rem;
+}
+
+.contact-image{
+  margin-left: -16rem;
+  width: 155%;
+}
+
+.contact-location{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.contact-arrow{
+  font-size: 1.7rem;
+  margin-bottom: 3rem;
+}
+
+/*contact end*/
+
+/*parallax*/
+
+.Parallax{
+  height: 20rem;
+  background-image: url('./Images/karsten-winegeart-EbV9cE1EiEU-unsplash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 5rem;
+}
+
+
+/*parallax*/
+
