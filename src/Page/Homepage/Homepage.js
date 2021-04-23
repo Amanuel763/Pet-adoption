@@ -7,6 +7,8 @@ import Parallax from '../../Components/Parallax'
 import Statistics from '../../Components/Statistics'
 
 const Homepage = () => {
+
+
     return (
         <div>
             <HomeScreen />

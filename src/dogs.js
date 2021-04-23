@@ -1,50 +1,45 @@
 const dogs = [
     {
         name: 'Ashley',
-        image: '/images/dogs1.jpg',
+        image: '/images/dogs/dog1.jpg',
         description: 'The house is situated one block off of Broadway.',
-        price: '450000',
-        category: 'house',
+        price: '45',
+        
 
     },
     {
         name: 'Atlas',
-        image: '/images/dogs2.jpg',
+        image: '/images/dogs/dog2.jpg',
         description: 'The house is located in East Nashville.',
-        price: '700000',
-        category: 'house',
+        price: '70',
 
     },
     {
         name: 'Prometheus',
-        image: '/images/dogs3.jpg',
+        image: '/images/dogs/dog3.jpg',
         description: 'This beautiful property is located out west in Bellevue.',
-        price: '500000',
-        category: 'house',
+        price: '50',
 
     },
     {
         name: 'Athena',
-        image: '/images/dogs4.jpg',
+        image: '/images/dogs/dog4.jpg',
         description: 'This house is located outside of Nashville in the historic city if Franklin.',
-        price: '200000',
-        category: 'house',
+        price: '20',
 
     },
     {
         name: 'Beethoven',
-        image: '/images/dogs5.jpg',
+        image: '/images/dogs/dog5.jpg',
         description: 'This property is located in Brentwood.',
-        price: '300000',
-        category: 'house',
+        price: '30',
 
     },
     {
         name: 'Tyson',
-        image: '/images/dogs6.jpg',
+        image: '/images/dogs/dog6.jpg',
         description: 'This house is located in Downtown Nashville.',
-        price: '150000',
-        category: 'house',
+        price: '15',
 
     }
 ]

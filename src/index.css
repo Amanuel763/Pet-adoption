@@ -18,7 +18,7 @@ body{
   rgba(241, 233, 233, 0.836),
   rgba(219, 150, 150, 0.4));
   height: 63.8rem;
-  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 78.2vh);
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 78.6vh);
   width: 156%;
   object-fit: cover;
   margin-left: -24rem;
@@ -67,7 +67,7 @@ body{
 
 /*Getapet start*/
 .Getapet-Container{
-  height: 50rem;
+  height: 40rem;
   margin-top: 10rem;
 }
 
@@ -84,6 +84,11 @@ body{
 .getapet-container{
   width: 18rem;
   margin-top: 10rem;
+  text-align: center;
+}
+
+.getapet-container h5{
+  margin-top: 2rem;
 }
 
 
@@ -95,9 +100,7 @@ body{
   font-size: 1.5rem;
 }
 
-.getapet-text{
-  padding: 1rem;
-}
+
 
 /*Getapet end*/
 
@@ -113,6 +116,11 @@ body{
   position: absolute;
   margin-left: 3rem;
   z-index: 1;
+}
+
+.ourstory-image{
+  width: 150%;
+  margin-left: -5rem;
 }
 
 .hr-ourstory{
@@ -183,7 +191,7 @@ body{
 /*Contact start*/
 
 .Contact-Container{
-  height: 40rem;
+  height: 33.9rem;
 }
 
 .contact-section{
@@ -237,3 +245,427 @@ body{
 
 /*parallax*/
 
+/*Footer start*/
+
+.Footer-container{
+  height: 23rem;
+  background-color: rgb(231, 121, 78);
+  margin-left: 0rem;
+  max-width: 100%;
+  position: absolute;
+  top: 170%;
+}
+
+.footer-text{
+  margin-top: 5rem;
+  margin-left: 5rem;
+  
+}
+
+.footer-text h3{
+  margin-bottom: 2rem;
+}
+
+.operation-list{
+  transform: translateX(-10%);
+  color: #000;
+}
+
+.operation-list li{
+  list-style-type: none;
+}
+
+.social{
+  margin-top: 1rem;
+}
+
+.instagram{
+  font-size: 2rem;
+}
+.twitter{
+  font-size: 2rem;
+}
+.youtube{
+  font-size: 2rem;
+}
+
+.instagram:hover,
+.twitter:hover,
+.youtube:hover{
+  color: #fff;
+}
+/*Footer end*/
+
+/*media queries start*/
+
+@media (max-width: 64em){
+  html{
+    overflow-x: hidden;
+  }
+
+  .video{
+    width: 158.2%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 48vh);
+  }
+
+  .body{
+    width: 164.5%;
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0 48vh);
+  }
+
+  .hero-text{
+    margin-left: 10rem;
+  }
+
+  .ourstory-commitment{
+    margin-left: 0rem;
+  }
+
+
+
+  .contact-image{
+    width: 170%;
+    height: 34rem;
+  }
+
+  .contact-section{
+    width: 115%;
+  }
+}
+
+/**/
+
+/*48em*/
+
+@media (max-width: 48em){
+  html{
+    overflow-x: hidden;
+  }
+
+
+
+  .video{
+    width: 159.2%;
+  }
+
+  .body{
+    width: 179.5%;
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0 45vh);
+  }
+
+  .hero-text{
+    margin-left: 2.5rem;
+  }
+
+
+  .getapet-header-1{
+    transform: translateX(-38%);
+  }
+
+  .getapet-header-2{
+    transform: translateX(-15%);
+  }
+
+  .getapet-header-3{
+    transform: translateX(5%);
+  }
+
+  .getapet-position {
+    transform: translateX(-40%);
+  }
+
+  .getapet-position-1{
+    transform: translateX(-15%);
+  }
+
+  .getapet-position-2{
+    transform: translateX(5%);
+  }
+
+  .stats{
+    margin-left: -2.5rem;
+    padding: 4rem 6rem;
+  }
+
+  .stats-icon{
+    transform: translate(-38%, -60%);
+  }
+
+  .contact-image{
+    width: 191%;
+  }
+
+  .contact-section{
+    width: 158%;
+
+  }
+
+  .ourstory-commitment{
+    margin-left: -6rem;
+
+  }
+
+  .ourstory-image{
+    width: 185%;
+
+  }
+
+  .ourstory-story{
+    height: 15rem;
+    margin-left: -20rem;
+    padding: 2rem 6rem;
+    transform: translate(24%, 253%);
+  }
+
+  .stats{
+    margin-left: -2rem;
+  }
+
+  .stats-card-text{
+    margin-left: -3rem;
+  }
+
+  .stats-icon{
+    transform: translate(-6%, -60%);
+  }
+
+  .contact-section{
+    width: 116%;
+  }
+}
+
+
+/**/
+
+/*33.75em*/
+
+@media (max-width: 35.75em){
+  html{
+    overflow-x: hidden;
+  }
+
+
+  .video{
+    width: 200%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100vh);
+    height: 45.5rem;
+    left: -22%;
+    top: -12%;
+  }
+
+  .body{
+    width: 236%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 71%, 0 100vh);
+  }
+
+  .hero-text{
+    margin-left: 1rem;
+  }
+
+  .Getapet-Container{
+    height: 80rem;
+  }
+
+  .Getapet-Header{
+    margin-left: 0rem;
+  }
+
+  .getapet-container{
+    margin-left: 6rem;
+  }
+
+  .getapet-header-1{
+    transform: translateX(0%);
+  }
+
+  .getapet-header-2{
+    transform: translateX(0%);
+  }
+
+  .getapet-header-3{
+    transform: translateX(0%);
+  }
+
+  
+  .getapet-position {
+    transform: translateX(0%);
+  }
+
+  .getapet-position-1{
+    transform: translateX(0%);
+  }
+
+  .getapet-position-2{
+    transform: translateX(0%);
+  }
+
+  .Ourstory-Container{
+    height: 60rem;
+  }
+
+  .ourstory-commitment{
+    height: 14rem;
+    padding: 1rem 6rem;
+  }
+
+  .ourstory-image{
+    width: 122%;
+  }
+
+  .ourstory-story{
+    transform: translate(27%, -31%);
+    margin-left: 0rem;
+    padding: 2rem 6rem;
+  }
+
+  .Parallax{
+    background-position: center;
+    width: 165%;
+    margin-left: -1rem;
+
+  }
+
+  .Stats-Container{
+    height: 102rem;
+  }
+
+  .stats{
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+  }
+
+  .stats-text{
+    margin-left: 0rem;
+  }
+
+  .stats-card-text{
+    margin-left: 3rem;
+  }
+
+  .stats-icon{
+    transform: translate(171%, -60%);
+  }
+  .card-1{
+    margin-top: 5rem;
+  }
+
+  .card-2{
+    margin-bottom: 11rem;
+  }
+  .Contact-Container{
+    width: 115%;
+  }
+
+  .contact-image{
+    width: 138%;
+  }
+
+  .contact-section{
+    width: 100%;
+    margin-left: -2rem;
+    height: 50rem;
+  }
+}
+
+/**/
+
+/*25.875em*/
+
+@media (max-width: 25.875em){
+  html{
+    overflow-x: hidden;
+  }
+  .getapet-container {
+    margin-left: 2rem;
+  }
+
+  .ourstory-commitment{
+    height: 17rem;
+  }
+
+  .ourstory-image{
+    margin-top: 16rem;
+  }
+
+  .ourstory-story{
+    padding: 2rem 5rem;
+    height: 22rem;
+  }
+
+  .stats-icon{
+    transform: translate(83%, -60%);
+  }
+
+  .contact-image{
+    width: 154.5%;
+  }
+
+  .contact-section{
+    height: 53rem;
+  }
+}
+
+/**/
+
+/*23.4375*/
+
+@media (max-width: 23.4375em){
+  .body{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 71.5%, 0 89vh);
+  }
+
+  .getapet-container{
+    margin-left: 1rem;
+  }
+
+  .ourstory-commitment{
+    height: 21rem;
+  }
+
+  .stats-icon{
+    transform: translate(50%, -60%);
+  }
+
+  .stats-card-text{
+    margin-left: 1rem;
+  }
+
+  .contact-image{
+    width: 163.5%;
+  }
+
+  .contact-section{
+    width: 103%;
+  }
+}
+
+
+/**/
+
+/*22.5*/
+
+@media (max-width: 22.5em){
+  .body{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 69.5%, 0 95vh);
+  }
+
+  .Ourstory-Container{
+    height: 68rem;
+  }
+
+  .ourstory-story{
+    transform: translate(27%, -17%);
+  }
+
+  .stats-icon{
+    transform: translate(38%, -60%);
+  }
+
+  .ourstory-commitment{
+    height: 22rem;
+  }
+}
+
+
+/**/

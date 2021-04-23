@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Button, Col, Container, Image, Row } from 'react-bootstrap'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css' 
 
 import image from '../Images/cat2.jpg'
 
 const Ourstory = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+    }, []);
     return (
         <Container className='Ourstory-Container'>
             <Row>
                 <Col sm={12} md={3} lg={3} xl={3}>
-                    <div className='ourstory-commitment'>
+                    <div className='ourstory-commitment' data-aos='fade-right'>
                         <h3>Our Commitment</h3>
                         <hr className='hr-ourstory' />
                         <h5>We strive to provide a safe home for cats and dogs alike. Our fury friends have been abandoned and therefore we are looking for dedicated parents to provide a forever home.</h5>
