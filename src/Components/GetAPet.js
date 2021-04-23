@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Card, Col, Container, Row, Image } from 'react-bootstrap'
+import  { Col, Container, Row } from 'react-bootstrap'
 import { BiRun } from 'react-icons/bi'
 import { BsAlarm } from 'react-icons/bs'
 import { MdChildFriendly } from 'react-icons/md'
