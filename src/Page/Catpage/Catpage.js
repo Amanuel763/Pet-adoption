@@ -16,12 +16,12 @@ const Catpage = () => {
     return (
 
 
-        <Container>
+        <Container className='Catpage'>
             <Row>
                 <Col sm={12} md={12} lg={12} xl={12}>
-                    <div className='agents-header'>
+                    <div className='cat-header'>
                         <h1>Choose a Fury Friend</h1>
-                        <hr className='hr-agents' />
+                        <hr className='hr-cats' />
                     </div>
                 </Col>
             </Row>

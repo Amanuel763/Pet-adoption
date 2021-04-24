@@ -22,7 +22,6 @@ function App() {
         <Route path='/' component={Homepage} exact  />
         <Route path='/cats' component={Catpage}   />
         <Route path='/dogs' component={Dogpage}   />
-
       </Container>  
       <Footer />    
     </Router>

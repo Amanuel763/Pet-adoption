@@ -245,55 +245,79 @@ body{
 
 /*parallax*/
 
+/*Cat Page*/
+
+.Catpage{
+  height: 75rem;
+  position: relative;
+}
+
+.hr-cats{
+  border: 2px solid rgb(226, 123, 123);
+  width: 10%;
+  margin-left: 0rem;
+}
+
+
+/* Cat page end*/
+
+
+/*dogs Page*/
+
+.Dogpage{
+  position: relative;
+  height: 75rem;
+}
+
+.hr-dogs{
+  border: 2px solid rgb(226, 123, 123);
+  width: 10%;
+  margin-left: 0rem;
+}
+
+
+/* dogs page end*/
+
+
 /*Footer start*/
 
 .Footer-container{
-  height: 23rem;
-  background-color: rgb(231, 121, 78);
+  height: 30rem;
+  background-color: rgb(255, 25, 25);
   margin-left: 0rem;
   max-width: 100%;
-  position: absolute;
-  top: 170%;
+  position: relative;
 }
 
 .footer-text{
-  margin-top: 5rem;
-  margin-left: 5rem;
-  
+  margin-top: 5rem; 
 }
 
-.footer-text h3{
-  margin-bottom: 2rem;
+.footer-text h2,  h6{
+  color: #fff;
 }
 
-.operation-list{
-  transform: translateX(-10%);
-  color: #000;
-}
-
-.operation-list li{
-  list-style-type: none;
+.hr-footer{
+  border: 2px solid #fff;
+  width: 10%;
+  transform: translateX(-400%);
 }
 
 .social{
-  margin-top: 1rem;
+  font-size: 2rem;
+  margin-left: 1rem;
 }
 
-.instagram{
-  font-size: 2rem;
-}
-.twitter{
-  font-size: 2rem;
-}
-.youtube{
+.footer-logo h2{
+  margin-left: 1rem;
   font-size: 2rem;
 }
 
-.instagram:hover,
-.twitter:hover,
-.youtube:hover{
-  color: #fff;
+.copyright{
+  text-align: center;
+  margin-top: 10rem;
 }
+
 /*Footer end*/
 
 /*media queries start*/
@@ -432,6 +456,10 @@ body{
   .contact-section{
     width: 116%;
   }
+
+  .hr-footer{
+    transform: translateX(-356%);
+  }
 }
 
 
@@ -554,7 +582,8 @@ body{
     margin-bottom: 11rem;
   }
   .Contact-Container{
-    width: 115%;
+    width: 116%;
+    height: 84rem;
   }
 
   .contact-image{
@@ -566,6 +595,18 @@ body{
     margin-left: -2rem;
     height: 50rem;
   }
+
+  .Footer-container{
+    height: 70rem;
+  }
+
+  .hr-footer{
+    transform: translateX(-416%);
+  }
+
+  .Catpage, .Dogpage{
+    height: 254rem;
+  }
 }
 
 /**/
@@ -576,6 +617,11 @@ body{
   html{
     overflow-x: hidden;
   }
+
+  .hero-text{
+    margin-left: 0rem;
+  }
+  
   .getapet-container {
     margin-left: 2rem;
   }
@@ -597,6 +643,10 @@ body{
     transform: translate(83%, -60%);
   }
 
+  .Contact-Container{
+    height: 87rem;
+  }
+
   .contact-image{
     width: 154.5%;
   }
@@ -604,9 +654,23 @@ body{
   .contact-section{
     height: 53rem;
   }
+
+  .hr-footer{
+    transform: translateX(-403%);
+  }
+
+  .Catpage, .Dogpage{
+    height: 200rem;
+  }
 }
 
 /**/
+
+@media (max-width: 25.6875em){
+  .Catpage, .Dogpage{
+    height: 210rem;
+  }
+}
 
 /*23.4375*/
 
@@ -638,6 +702,12 @@ body{
   .contact-section{
     width: 103%;
   }
+
+  .Catpage, .Dogpage{
+    height: 200rem;
+  }
+
+
 }
 
 

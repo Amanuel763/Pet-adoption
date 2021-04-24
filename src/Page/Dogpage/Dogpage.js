@@ -15,12 +15,12 @@ const Dogpage = () => {
     })
   
     return (
-        <Container>
+        <Container className='Dogpage'>
         <Row>
             <Col sm={12} md={12} lg={12} xl={12}>
-                <div className='agents-header'>
+                <div className='dogs-header'>
                     <h1>Choose a Fury Friend</h1>
-                    <hr className='hr-agents' />
+                    <hr className='hr-dogs' />
                 </div>
             </Col>
         </Row>
